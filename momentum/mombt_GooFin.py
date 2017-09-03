@@ -172,7 +172,7 @@ class Momentum_Backtester(object):
 if __name__ == '__main__':
     mombt = Momentum_Backtester('AAPL', '2015-12-8', '2016-12-10', lvrage=10)
     print(mombt.run_strategy(momentum=120))
-    print(mombt.plot_strategy())
-    print(mombt.hist_returns())
+    #print(mombt.plot_strategy())
+    #print(mombt.hist_returns())
 
 

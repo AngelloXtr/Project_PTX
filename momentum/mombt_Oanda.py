@@ -249,5 +249,5 @@ if __name__ == '__main__':
     mombt = Momentum_Backtester('AUD_JPY', start='2015-12-08', end='2016-12-10',lvrage=10)
     print(mombt.run_strategy(momentum=20))
     # print(mombt.strat_drawdown())
-    print(mombt.plot_strategy())
-    print(mombt.hist_returns())
+    #print(mombt.plot_strategy())
+    #print(mombt.hist_returns())
